@@ -112,39 +112,6 @@ results = ensemble.evaluate(test_images, test_labels)
 4. **Ensemble_Training.ipynb**: Advanced ensemble techniques
 5. **Result.ipynb**: Final results and model comparison
 
-## 🛠️ Usage Examples
-
-### Basic Prediction
-```python
-import numpy as np
-from src.ensemble_model import BrainTumorEnsemble
-
-# Load ensemble
-ensemble = BrainTumorEnsemble()
-
-# Load your MRI image (preprocessed)
-image = np.load('your_mri_image.npy')
-
-# Get prediction
-prediction = ensemble.predict(image.reshape(1, -1))
-probability = ensemble.predict(image.reshape(1, -1), return_probabilities=True)
-
-print(f"Prediction: {'Tumor' if prediction[0] == 1 else 'No Tumor'}")
-print(f"Confidence: {probability[0][0]:.2%}")
-```
-
-### Model Evaluation
-```python
-# Load test data
-test_images, test_labels = load_test_data()
-
-# Comprehensive evaluation
-results = ensemble.evaluate(test_images, test_labels)
-
-print(f"Test Accuracy: {results['accuracy']:.4f}")
-print(f"AUC Score: {results['auc']:.4f}")
-```
-
 ## 📋 Requirements
 
 - Python 3.7+
