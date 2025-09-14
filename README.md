@@ -156,18 +156,3 @@ print(f"AUC Score: {results['auc']:.4f}")
 - OpenCV
 - Pillow
 
-## 🤝 Contributing
-
-This is a portfolio project demonstrating machine learning and deep learning capabilities for medical image analysis.
-
-## 📄 License
-
-This project is for educational and portfolio purposes.
-
-## 📧 Contact
-
-Created as part of a machine learning portfolio demonstrating expertise in:
-- Deep Learning for Medical Imaging
-- Ensemble Methods
-- Model Optimization
-- Data Science Workflows
