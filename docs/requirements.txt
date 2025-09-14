@@ -1,0 +1,36 @@
+# Core scientific computing
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# Data visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Image processing
+opencv-python>=4.5.0
+Pillow>=8.3.0
+
+# Machine learning
+scikit-learn>=1.0.0
+
+# Deep learning framework
+tensorflow>=2.13.0
+
+# Jupyter environment
+jupyter>=1.0.0
+jupyterlab>=3.0.0
+ipykernel>=6.0.0
+ipywidgets>=7.6.0
+
+# Utilities
+pathlib2>=2.3.0
+tqdm>=4.62.0
+
+# Statistical analysis
+statsmodels>=0.12.0
+
+# Additional image processing
+imageio>=2.9.0
+scikit-image>=0.18.0

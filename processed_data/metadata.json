@@ -1,0 +1,43 @@
+{
+  "dataset_info": {
+    "original_images": 253,
+    "tumor_images": 155,
+    "no_tumor_images": 98,
+    "target_size": [
+      224,
+      224
+    ],
+    "preprocessing": {
+      "gaussian_blur": true,
+      "clahe_enhancement": true,
+      "z_score_normalization": true,
+      "min_max_normalization": true
+    }
+  },
+  "splits": {
+    "train": {
+      "total_images": 245,
+      "tumor_images": 109,
+      "no_tumor_images": 136,
+      "tumor_ratio": 0.4448979591836735
+    },
+    "val": {
+      "total_images": 38,
+      "tumor_images": 23,
+      "no_tumor_images": 15,
+      "tumor_ratio": 0.6052631578947368
+    },
+    "test": {
+      "total_images": 38,
+      "tumor_images": 23,
+      "no_tumor_images": 15,
+      "tumor_ratio": 0.6052631578947368
+    }
+  },
+  "augmentation": {
+    "train_tumor_multiplier": 1,
+    "train_no_tumor_multiplier": 2,
+    "validation_multiplier": 1,
+    "test_multiplier": 1
+  }
+}
